@@ -42,6 +42,7 @@ function App() {
     //pick a random word
     const word =
       words[category][Math.floor(Math.random() * words[category].length)];
+
     return { word, category };
   }, [words]);
   // start the secret word game
@@ -52,7 +53,7 @@ function App() {
     const { word, category } = pickWordAndCategory();
 
     // create array of letters
-    let wordLetters = word.split("");
+    let wordLetters = word.split(" ").join("").split("");
 
     wordLetters = wordLetters.map((l) => l.toLowerCase());
 
@@ -148,7 +149,11 @@ function App() {
         />
       )}
       {gameStage === "end" && (
-        <GameOver restartGame={restartGame} score={score} />
+        <GameOver
+          restartGame={restartGame}
+          score={score}
+          pickedWord={pickedWord}
+        />
       )}
     </div>
   );
