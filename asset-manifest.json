@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/palavra-secreta/static/css/main.4cb5e4e2.css",
+    "main.js": "/palavra-secreta/static/js/main.1384c17c.js",
+    "static/js/787.b274d2fb.chunk.js": "/palavra-secreta/static/js/787.b274d2fb.chunk.js",
+    "index.html": "/palavra-secreta/index.html",
+    "main.4cb5e4e2.css.map": "/palavra-secreta/static/css/main.4cb5e4e2.css.map",
+    "main.1384c17c.js.map": "/palavra-secreta/static/js/main.1384c17c.js.map",
+    "787.b274d2fb.chunk.js.map": "/palavra-secreta/static/js/787.b274d2fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cb5e4e2.css",
+    "static/js/main.1384c17c.js"
+  ]
+}
