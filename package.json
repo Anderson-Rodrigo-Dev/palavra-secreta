@@ -1,5 +1,4 @@
 {
-  "homepage": "https://anderson-rodrigo-dev.github.io/palavra-secreta/",
   "name": "06_projeto-secret-word",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +11,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://anderson-rodrigo-dev.github.io/palavra-secreta/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
